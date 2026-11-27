@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">শিক্ষা</string>
+
+    <!-- Auth -->
+    <string name="welcome_title">শিখুন। অনুশীলন করুন। প্রতিযোগিতা করুন।</string>
+    <string name="login_title">সাইন ইন</string>
+    <string name="register_title">শিক্ষার্থী অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="email_label">ইমেইল</string>
+    <string name="password_label">পাসওয়ার্ড</string>
+    <string name="password_hint">কমপক্ষে ৬ অক্ষর</string>
+    <string name="full_name_label">পূর্ণ নাম</string>
+    <string name="username_label">ইউজারনেম (অনন্য)</string>
+    <string name="class_label">শ্রেণি</string>
+    <string name="medium_label">মাধ্যম</string>
+    <string name="medium_bangla">বাংলা</string>
+    <string name="medium_english">ইংরেজি</string>
+    <string name="login_button">সাইন ইন</string>
+    <string name="register_button">রেজিস্টার</string>
+    <string name="go_to_register">নতুন শিক্ষার্থী? অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="go_to_login">আগে থেকেই রেজিস্টার্ড? সাইন ইন করুন</string>
+    <string name="login_error">সাইন ইন ব্যর্থ হয়েছে। ইমেইল ও পাসওয়ার্ড পরীক্ষা করুন।</string>
+    <string name="register_error">রেজিস্ট্রেশন ব্যর্থ হয়েছে। ইউজারনেম বা ইমেইল হয়তো আগে থেকেই ব্যবহৃত হয়েছে।</string>
+    <string name="email_confirmation_sent">অ্যাকাউন্ট তৈরি হয়েছে। অনুগ্রহ করে ইমেইল নিশ্চিত করুন, তারপর সাইন ইন করুন।</string>
+    <string name="logout">সাইন আউট</string>
+
+    <!-- Pending approval -->
+    <string name="pending_title">অনুমোদনের জন্য অপেক্ষমাণ</string>
+    <string name="pending_message">একজন অ্যাডমিনিস্ট্রেটর আপনার অ্যাকাউন্ট পর্যালোচনা করছেন। রেজিস্ট্রেশন অনুমোদিত হলে আপনি অ্যাপটি ব্যবহার করতে পারবেন।</string>
+    <string name="pending_status_rejected">আপনার রেজিস্ট্রেশন অনুমোদন হয়নি। বিস্তারিত জানতে সাপোর্টে যোগাযোগ করুন।</string>
+    <string name="pending_check_again">অবস্থা পরীক্ষা করুন</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">স্বাগতম, %1$s</string>
+    <string name="dashboard_class_medium">%1$d শ্রেণি • %2$s মাধ্যম</string>
+    <string name="tile_subjects">বিষয়সমূহ</string>
+    <string name="tile_mcq_practice">এমসিকিউ অনুশীলন</string>
+    <string name="tile_exams">পরীক্ষা</string>
+    <string name="tile_mistakes">ভুল পুনরালোচনা</string>
+    <string name="tile_friends">বন্ধু</string>
+    <string name="tile_chat">চ্যাট</string>
+    <string name="tile_videos">ভিডিও লেসন</string>
+    <string name="tile_leaderboard">লিডারবোর্ড</string>
+    <string name="tile_profile">আমার প্রোফাইল</string>
+    <string name="tile_settings">সেটিংস</string>
+    <string name="recent_activity">সাম্প্রতিক কার্যক্রম</string>
+    <string name="empty_new_user">শুরু করতে একটি বিষয় বেছে এমসিকিউ অনুশীলন করুন।</string>
+
+    <string name="planned_title">শীঘ্রই আসছে</string>
+    <string name="planned_message">এই ফিচারটি পরবর্তী ধাপে আসার পরিকল্পনায় রয়েছে (অবস্থা: PLANNED)। এই বিল্ডে এটি অন্তর্ভুক্ত নয়।</string>
+
+    <!-- Curriculum -->
+    <string name="subjects_title">বিষয়সমূহ</string>
+    <string name="chapters_title">অধ্যায়সমূহ</string>
+    <string name="start_practice">অনুশীলন শুরু করুন</string>
+    <string name="questions_count">%1$dটি প্রশ্ন</string>
+    <string name="empty_subjects">আপনার শ্রেণি ও মাধ্যমের জন্য এখনো কোনো বিষয় যুক্ত হয়নি।</string>
+    <string name="empty_chapters">এই বিষয়ের জন্য এখনো কোনো অধ্যায় প্রকাশিত হয়নি।</string>
+
+    <!-- MCQ practice -->
+    <string name="practice_title">এমসিকিউ অনুশীলন</string>
+    <string name="question_progress">প্রশ্ন %2$dটির মধ্যে %1$d</string>
+    <string name="submit_answer">উত্তর জমা দিন</string>
+    <string name="next_question">পরবর্তী</string>
+    <string name="finish_practice">শেষ করুন</string>
+    <string name="correct_feedback">সঠিক!</string>
+    <string name="incorrect_feedback">ভুল। সঠিক উত্তর হাইলাইট করা হয়েছে।</string>
+    <string name="explanation_title">ব্যাখ্যা</string>
+    <string name="bookmark">বুকমার্ক</string>
+    <string name="report_question">রিপোর্ট</string>
+    <string name="offline_cached_notice">আপনি অফলাইনে আছেন। আগে ডাউনলোড করা প্রশ্নগুলো দেখানো হচ্ছে।</string>
+    <string name="empty_questions">এই অধ্যায়ের জন্য এখনো কোনো প্রশ্ন প্রকাশিত হয়নি।</string>
+    <string name="practice_error_loading">প্রশ্ন লোড করা যায়নি। আবার চেষ্টা করুন।</string>
+    <string name="retry">পুনরায় চেষ্টা</string>
+
+    <!-- Practice result -->
+    <string name="result_title">অনুশীলনের ফলাফল</string>
+    <string name="result_score">%2$dটির মধ্যে %1$dটি সঠিক</string>
+    <string name="result_accuracy">নির্ভুলতা: %1$s</string>
+    <string name="back_to_chapters">অধ্যায়ে ফিরে যান</string>
+    <string name="review_answers">উত্তর পর্যালোচনা</string>
+    <string name="your_answer">আপনার উত্তর</string>
+    <string name="correct_answer">সঠিক উত্তর</string>
+
+    <!-- Profile -->
+    <string name="profile_title">প্রোফাইল</string>
+    <string name="profile_member_since">%1$s থেকে সদস্য</string>
+    <string name="profile_edit_name">নাম সম্পাদনা</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="cancel">বাতিল</string>
+    <string name="profile_save_failed">সংরক্ষণ করা যায়নি। আবার চেষ্টা করুন।</string>
+    <string name="stat_attempts">অনুশীলন সেশন</string>
+    <string name="stat_correct">সঠিক উত্তর</string>
+
+    <!-- Settings -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="setting_shuffle">অনুশীলনে প্রশ্নের ক্রম এলোমেলো করুন</string>
+    <string name="setting_language_note">ইন্টারফেসের ভাষা আপনার সিস্টেম সেটিংস অনুযায়ী পরিবর্তিত হয়। Android 13+ এ সিস্টেম সেটিংস থেকে অ্যাপভেদে ভাষাও বেছে নিতে পারবেন।</string>
+
+    <!-- Common -->
+    <string name="loading">লোড হচ্ছে…</string>
+    <string name="error_generic">কিছু একটা সমস্যা হয়েছে। আবার চেষ্টা করুন।</string>
+    <string name="error_offline">ইন্টারনেট সংযোগ নেই।</string>
+    <string name="try_again">আবার চেষ্টা করুন</string>
+    <!-- Mistake review (Spec 8) -->
+    <string name="mistakes_title">ভুল পর্যালোচনা</string>
+    <string name="mistakes_empty">পর্যালোচনার জন্য কোনো ভুল নেই। অনুশীলনে যে প্রশ্নের উত্তর ভুল হবে সেগুলো এখানে দেখা যাবে।</string>
+    <string name="mistakes_count">%1$dটি প্রশ্ন পর্যালোচনার অপেক্ষায়</string>
+    <string name="mistakes_practice_button">এই ভুলগুলো অনুশীলন করুন</string>
+    <string name="mistakes_retry_title">ভুল অনুশীলন</string>
+    <string name="mistakes_times_missed">ভুল হয়েছে: %1$d বার</string>
+    <string name="mistakes_no_explanation">এই প্রশ্নের কোনো ব্যাখ্যা নেই।</string>
+
+    <!-- Creative questions (Spec 6) -->
+    <string name="cq_button">সৃজনশীল প্রশ্ন</string>
+    <string name="cq_title">সৃজনশীল প্রশ্ন</string>
+    <string name="cq_empty">এই অধ্যায়ের কোনো সৃজনশীল প্রশ্ন এখনও প্রকাশিত হয়নি।</string>
+    <string name="cq_total_marks">মোট নম্বর: %1$s</string>
+    <string name="cq_show_answer">আদর্শ উত্তর দেখুন</string>
+    <string name="cq_hide_answer">আদর্শ উত্তর লুকান</string>
+    <string name="cq_model_answer">আদর্শ উত্তর</string>
+    <string name="cq_no_model_answer">আদর্শ উত্তর এখনও পাওয়া যায়নি।</string>
+</resources>

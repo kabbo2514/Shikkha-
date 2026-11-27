@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Android 13+ per-app language picker support (Spec 18) -->
+    <locale android:name="en" />
+    <locale android:name="bn" />
+</locale-config>
